@@ -6,11 +6,20 @@ Algoritmo "semnome"
 // Data atual  : 05/09/2023
 Var
 // Seção de Declarações das variáveis 
-   list: vetor[1..22] de real
+   list: vetor[0..22] de real
+   count: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   list[1] <- 10.0
-   
-   escreval("A primeira nota é: ", list[1])
+// Seção de Comandos, procedimento, funções, operadores, etc...
 
+   count <- 0
+
+   para count de 0 até 22 faca
+     escreval("Digite a nota ", count)
+     leia(list[count])
+   fimpara
+   
+   count <- 0
+   para count de 0 até 22 faca
+      escreval("A nota da posição ", count, " é ", list[count])
+   fimpara
 Fimalgoritmo
