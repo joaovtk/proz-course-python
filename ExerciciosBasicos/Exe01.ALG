@@ -1,17 +1,17 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/08/2023
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 
    numberone: real
    numbertwo: real
    sum: real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    escreval("Digite um numero: ")
    leia(numberone)
 
@@ -20,6 +20,6 @@ Inicio
    
    sum <- numberone + numbertwo
 
-   escreval("A soma entre", numberone, " + ", numbertwo, " é igual a ", sum)
+   escreval("A soma entre", numberone, " + ", numbertwo, " ï¿½ igual a ", sum)
 
 Fimalgoritmo
