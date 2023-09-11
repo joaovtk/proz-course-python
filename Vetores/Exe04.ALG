@@ -7,7 +7,6 @@ Algoritmo "semnome"
 Var
 // Seção de Declarações das variáveis 
    numbers: vetor[0..9] de inteiro
-   even: vetor[0..9] de inteiro
    count: inteiro
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -18,7 +17,6 @@ Inicio
         leia (numbers[count])
    limpatela()
    fimpara
-   
    count <- 0
    
    para count de 0 ate 9 faca
