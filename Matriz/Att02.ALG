@@ -26,11 +26,22 @@ Inicio
         escreval(" ")
    fimpara
 
-   escreval("Numeros da primeira coluna")
-   para x de 0 até 1 faca
-          para y de 0 até 2 faca
-               escreval(array[y])
-          fimpara
+   escreval("Numeros na diagonal")
+   para x de 0 até 2 faca
+        para y de 0 até 2 faca
+             se (x = 0) e (y = 0) entao
+                escreval(array[x, y])
+             senao
+                  se (x = 1) e (y = 1) entao
+                       escreval("  ", array[x, y])
+                       senao
+                            se (x = 2) e (y = 2) entao
+                                 escreval("    ",array[x, y])
+                            fimse
+                  fimse
+                  
+             fimse
+        fimpara
    fimpara
 
 Fimalgoritmo
