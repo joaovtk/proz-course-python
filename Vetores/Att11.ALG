@@ -9,29 +9,22 @@ Var
    f: inteiro
    a: vetor[0..5] de inteiro
    c: inteiro
-   p: vetor[0..5] de inteiro
+   freq: vetor[0..5] de inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-   para c de 0 até 5 faca
-          escreval("Digite um numero qualquer: ")
-          leia(a[c])
-   fimpara
-   
-   para c de 0 até 5 faca
-        para f de 0 até 5 faca
-           se a[c] = a[f] entao
-                p[c] <- p[c] + 1
-           fimse
-        fimpara
+   para c de 0 ate 4 faca
+        escreval("Digite um numero: ")
+        leia(a[c])
    fimpara
 
-
-   para c de 0 até 5 faca
-          para f de c + 1 até 5 faca
+   para c de 0 até 5  passo 1 faca
+        para f de 5 até 0 passo - 1 faca
                se a[c] = a[f] entao
-                    escreval("O ", a[c], " apareceu ", p[c], " vezes")
+                     escreval(a[c], a[f])
+                     freq[c] <- freq[c] + 1
                fimse
-          fimpara
+        fimpara
+        //escreval(freq, temp)
    fimpara
 Fimalgoritmo
