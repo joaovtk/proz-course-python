@@ -22,7 +22,7 @@ Inicio
         limpatela()
         escreval(" ")
         escreval("=== Historico de gastos ===")
-        escreval("R$ 4 - pada doce sabor")
+        escreval("R$ 4 - padaria doce sabor")
         escreval("R$ 80 - Horta")
    fimprocedimento
    

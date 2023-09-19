@@ -8,6 +8,7 @@ Var
 // Seção de Declarações das variáveis 
    op: inteiro
    res: real
+   a, b: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -23,27 +24,52 @@ Inicio
    
    procedimento sum(a, b: real)
      inicio
-        sum <- a + b
-        escreval("O resultado da soma é: ", sum)
+        res <- a + b
+        escreval("O resultado da soma é: ", res)
    fimprocedimento
    
    procedimento sub(a, b: real)
      inicio
-        sum <- a - b
-        escreval("O resultado da subtração é: ", sum)
+        res <- a - b
+        escreval("O resultado da subtração é: ", res)
    fimprocedimento
    procedimento multi(a, b: real)
      inicio
-        sum <- a * b
-        escreval("O resultado da multiplicação é: ", sum)
+        res <- a * b
+        escreval("O resultado da multiplicação é: ", res)
    fimprocedimento
-   procedimento div(a, b: real)
+   procedimento divi (a, b: real)
      inicio
-        sum <- a / b
-        escreval("O resultado da divisão é: ", sum)
+        res <- a / b
+        escreval("O resultado da divisão é: ", res)
    fimprocedimento
-   
    readNumbers()
    
+   enquanto (op < 1) ou (op > 4) faca
+     readNumbers()
+   fimenquanto
    
+   se op = 1 entao
+    escreval("Digite o valor do a e b")
+    leia(a, b)
+    sum(a, b)
+    senao
+         se op = 2 entao
+              escreval("Digite o valor do a e b")
+              leia(a, b)
+              sub(a)
+         senao
+              se op = 3 entao
+                   escreval("Digite o valor do a e b")
+                   leia(a, b)
+                   multi(a, b)
+              senao
+                   se op = 4 entao
+                        escreval("Digite o valor do a e b")
+                        leia(a, b)
+                        divi (a, b)
+                   fimse
+              fimse
+         fimse
+   fimse
 Fimalgoritmo
