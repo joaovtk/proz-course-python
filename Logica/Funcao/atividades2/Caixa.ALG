@@ -1,8 +1,8 @@
-Algoritmo "semnome"
+Algoritmo "Caixa"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Descrição   : Um codigo onde simula uma caixa bancaria
+// Autor(a)    : João Vitor Soares dos Reis
 // Data atual  : 21/09/2023
 Var
 // Seção de Declarações das variáveis 
@@ -58,6 +58,7 @@ Var
             fimse
    fimfuncao
    
+   // Area da função onde deposita o dinheiro do usuario
    funcao Deposit(saldo: real): real
      var
          res: real
@@ -66,9 +67,11 @@ Var
             escreval("Quanto você quer depositar ?")
             leia(res)
             escreval("Foi despositado ", res)
+            // é adicionado mais dinheiro ao saldo inicial
             retorne saldo + res
    fimfuncao
    
+   // sai do programa
    procedimento Quit()
       inicio
             limpatela()
@@ -77,22 +80,32 @@ Var
    
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
+   // gera um valor aleatorio pro saldo
    saldo <- randi(1000)
+   // loop principal que vai limitar o usuario a apenas as opções disponiveis
    enquanto op <> 4 faca
+       // mostra a tela do usuario
        MenuScreen()
-             op <- readOption()
+       // lê a opção do usuario
+       op <- readOption()
+       // checa se a opção está correta
       se op = 1 entao
+            // mostra o saldo do usuario que um saldo global
            CheckSaldo(saldo)
       senao
            se op = 2 entao
+              // saca o dinheiro do saldo total
               saldo <- Saque(saldo)
            senao
                 se op = 3 entao
+                      // depositar mais dinheiro no saldo global
                      saldo <- Deposit(saldo)
                 senao
                      se op = 4 entao
+                        // finaliza o program
                         Quit()
                         senao
+                             // Indica que o usuario digitohu uma opção invalida
                             limpatela()
                             escreval("Opção errada")
                      fimse
