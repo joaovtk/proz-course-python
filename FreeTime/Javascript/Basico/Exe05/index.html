@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="number" name="height" id="height" placeholder="Digite sua altura " />
+        <input type="number" name="weight" id="weight" placeholder="Digite seu peso "/>
+        <button id="send">Calcular IMC</button>
+        <p><span id="res"></span></p>
+        <script>
+            let send = document.getElementById("send");
+            let res = document.getElementById("res");
+
+            send.addEventListener("click", () => {
+                let height = Number(document.getElementById("height").value);
+                let weight = Number(document.getElementById("weight").value);
+                let imc = weight * (height * height)
+                res.textContent = `Seu imc é de ${imc.toFixed(2)} pontos`;
+            });
+        </script>
+    </body>
+</html>

@@ -13,23 +13,20 @@
 
         <label for="n2">
             <p>Segundo Numero: </p>
-            <input type="number" name="n1" id="n1" />
+            <input type="number" name="n2" id="n2" />
         </label>
-
-        <label for="res">
-            <p>Resultado: </p>
-            <input type="number" name="res" id="res" value="0" />
-        </label> 
+        <p>Soma: <span id="res">0</span></p>
         <button id="sum">
             Somar
         </button>
         <script>
-            let n1 = document.querySelector("#n1");
-            let n2 = document.querySelector("#n2");
-            let sum = document.querySelector("#sum");
+            let sum = document.getElementById("sum");
+            let res = document.getElementById("res");
 
             sum.addEventListener("click", () => {
-                
+                let n1 = Number(document.getElementById("n1").value);
+                let n2 = Number(document.getElementById("n2").value);
+                res.textContent = n1 + n2;
             });
         </script>
     </body>
