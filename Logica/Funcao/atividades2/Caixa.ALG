@@ -1,5 +1,4 @@
 Algoritmo "Caixa"
-// 
 //  
 // Descrição   : Um codigo onde simula uma caixa bancaria
 // Autor(a)    : João Vitor Soares dos Reis
@@ -9,6 +8,7 @@ Var
    // declaração de variaveis importantes
    op: inteiro
    saldo: real
+   c: inteiro
    // area de declaração de funçoes e procedimentos
    
    // lê a opção do usuario
@@ -77,11 +77,11 @@ Var
             limpatela()
             escreval("Programa finalizado obrigado por usar nosso serviços")
    fimprocedimento
-   
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+    // Seção de Comandos, procedimento, funções, operadores, etc...
    // gera um valor aleatorio pro saldo
    saldo <- randi(1000)
+   op <- 0
    // loop principal que vai limitar o usuario a apenas as opções disponiveis
    enquanto op <> 4 faca
        // mostra a tela do usuario
@@ -105,7 +105,7 @@ Inicio
                         // finaliza o program
                         Quit()
                         senao
-                             // Indica que o usuario digitohu uma opção invalida
+                             // Indica que o usuario digitou uma opção invalida
                             limpatela()
                             escreval("Opção errada")
                      fimse
