@@ -1,7 +1,7 @@
 # Respostas das perguntas da apostila
 
 <h1>1 - Qual é a difreneça entre uma tupla e uma lista</h1>
-<p>R.Tuplas apenas recebem valores elas não tem como ser mudados já listas você pode mudar</p>
+<h2>R. Tuplas apenas recebem valores elas não tem como ser mudados já listas você pode mudar</h2>
 
-<h1>Qual é a difrença entre um vetor comparo com as tuplas e as listas ?</h1>
-<p>R.As listas e tuplas podem receber dados de diferentes tipos já vetore não</p>
+<h1>2 - Qual é a difrença entre um vetor comparo com as tuplas e as listas ?</h1>
+<h2>R. As listas e tuplas podem receber dados de diferentes tipos já vetore não</h2>
