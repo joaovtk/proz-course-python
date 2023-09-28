@@ -25,5 +25,7 @@ for c in numbers:
     if c < less:
         less = c
 
-print("O maior elemento digitado é {}", less)
+print("O maior elemento digitado é {}".format(less))
+print("O menor numero digitado é {}".format(than))
+print(f"A diferença dos valores são {than - less}")
 
