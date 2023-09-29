@@ -1,7 +1,6 @@
 # criação do array 
 numbers = []
 
-
 # Aqui utiliza se de um loop com o range para ler todas as poisçoes do array
 for c in range(5):
     numbers.append(int(input(f"Digite um numero qualquer para posição {c + 1}: ")))
@@ -14,7 +13,7 @@ less = 0
 for c in numbers:
     # utilizei if para sempre que o than ou less não tiver valor ele adicionar o primeiro valor do array
     if than == 0:
-        than = 0
+        than = c
 
     if c > than:
         than = c

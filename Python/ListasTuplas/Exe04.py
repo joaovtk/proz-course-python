@@ -18,7 +18,6 @@ for c in al:
 for i in range(len(word)):
     pass
 
-
 print(code)
 print(word)
 print(final)

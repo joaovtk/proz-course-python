@@ -3,7 +3,7 @@ par = []
 res = 0
 
 for c in range(6):
-    numbers.append(int(input(f"Digite um numero qualquer: ")))
+    numbers.append(int(input("Digite um numero qualquer: ")))
 
 for c in numbers:
     if c % 2 == 0:

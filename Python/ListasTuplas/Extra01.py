@@ -10,8 +10,8 @@ for c in range(5):
 # Aqui utiliza funçõa sort para ordernar o array 
 numbers.sort()
 
-res = numbers[0] + numbers[-1]
+res = numbers[-1] - numbers[0]  
 
 # Imprime para o usuario
-print(f"A soma entre o {numbers[-1]}(o maior) e {numbers[0]}(o menor) é {res} e ele são os maiores e menores valores que você digitou")
+print(f"A difrença entre o {numbers[-1]}(o maior) e {numbers[0]}(o menor) é {res} e ele são os maiores e menores valores que você digitou")
 
