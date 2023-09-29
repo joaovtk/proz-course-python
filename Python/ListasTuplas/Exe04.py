@@ -1,23 +1,24 @@
-al = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-word = str(input("Digite alguma palavra: "))
 
-code = []
+mensagem = input("Digite a mensagem que deseja criptografar: ")
+chave = int(input("Digite a chave de criptografia (um número inteiro): "))
 
-key = 5
+mensagem_criptografada = ""
 
-final = []
+for aux in mensagem:
+    # isalpha() serve para identificar um caractere que não é letra dentro de uma string, ou seja, um caractere inválido
+    if aux.isalpha():
+        # isupper() Para detectar se uma string é toda maiúscula ou toda minúscula, usamos o método isupper() que retorna True se todos caracteres forem maiúsculos, e False se não forem.
+        maiuscula = aux.isupper()
+        # lower() Converte todos os caracteres da string em minúsculas.
+        aux = aux.lower()
+        # O caractere é convertido para minúscula, e a posição relativa à letra 'a' (de 0 a 25) é calculada usando
+        codigo = ord(aux) - ord('a')
+        # aplicando a cifra de cesar
+        codigo = (codigo + chave) % 26
+        # A posição é convertida de volta para um caractere usando
+        aux = chr(codigo + ord('a'))
+        if maiuscula:
+            aux = aux.upper()
+    mensagem_criptografada += aux
 
-for c in al:
-    print(al[key])
-    code.append(al[key])
-    key += 1
-
-    if(key == 26):
-        key = 0
-
-for i in range(len(word)):
-    pass
-
-print(code)
-print(word)
-print(final)
+print("Mensagem criptografada: " + mensagem_criptografada)
