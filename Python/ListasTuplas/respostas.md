@@ -34,7 +34,7 @@ R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas
 
 <hr/>
 
-8 - Crie uma tupla com os signos do zodíaco e exiba os valores dessa tupla em tela
+8 - Crie uma tupla com os signos do zodíaco e exiba os valores dessa tupla em tela<br/>
 R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe06.py">Atividade 8</a>
 
 <hr/>
