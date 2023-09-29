@@ -10,15 +10,18 @@ R. As listas e tuplas podem receber dados de diferentes tipos já vetores não
 
 <hr/>
 
-3 - <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe01.py">Atividade 3</a>
+3 - Desenvolva um programa que calcule e exiba a diferença entre o maior e o menor elemento de um lista denominada valores. Os valores da lista deve ser lidos
+R.  <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe01.py">Atividade 3</a>
 
 <hr/>
 
-4 - <a href="https://github.com/joaovtk/proz-course/blob/main/Python/Lista/sTuplas/Exe02.py">Atividade 4</a>
+4 - Desenvolva um programa que faça a soma de todos os elementos de indices par de uma lista 
+R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/Lista/sTuplas/Exe02.py">Atividade 4</a>
 
 <hr/>
 
-5 - <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe03.py">Atividade 5</a>
+5 - Desenvolva um programa que possua duas listas A e B com 5 elementos cada então troque o seus elementos de forma que a lista A ficara com os elementos da lista b e vice-versa
+R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe03.py">Atividade 5</a>
 
 <hr/>
 
@@ -26,11 +29,13 @@ R. As listas e tuplas podem receber dados de diferentes tipos já vetores não
 
 <hr/>
 
-7 - <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe05.py">Atividade 7</a>
+7 - Desenvolva um programa que armazenará números reais numa lista. A seguir, encontre o menor elemento da lista e sua posição (índice) dentro da lista, mostre esses valores em teka
+R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe05.py">Atividade 7</a>
 
 <hr/>
 
-8 - <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe06.py">Atividade 8</a>
+8 - Crie uma tupla com os signos do zodíaco e exiba os valores dessa tupla em tela
+R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe06.py">Atividade 8</a>
 
 <hr/>
 
