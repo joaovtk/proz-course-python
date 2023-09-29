@@ -16,7 +16,7 @@ R.  <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTupla
 <hr/>
 
 4 - Desenvolva um programa que faça a soma de todos os elementos de indices par de uma lista<br/> 
-R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/Lista/sTuplas/Exe02.py">Atividade 4</a>
+R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/Lista/Tuplas/Exe02.py">Atividade 4</a>
 
 <hr/>
 
@@ -30,12 +30,12 @@ R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas
 <hr/>
 
 7 - Desenvolva um programa que armazenará números reais numa lista. A seguir, encontre o menor elemento da lista e sua posição (índice) dentro da lista, mostre esses valores em teka<br/>
-R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe05.py">Atividade 7</a>
+R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe06.py">Atividade 7</a>
 
 <hr/>
 
 8 - Crie uma tupla com os signos do zodíaco e exiba os valores dessa tupla em tela<br/>
-R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe06.py">Atividade 8</a>
+R. <a href="https://github.com/joaovtk/proz-course/blob/main/Python/ListasTuplas/Exe07.py">Atividade 8</a>
 
 <hr/>
 
