@@ -4,7 +4,9 @@
 <p>Commit das atividades de python basico que estão localizados em Python/Basico cada arquivo é uma atividade ✔</p>
 <hr/>
 <p>Commit das atividades de listas, tuplas e dicionario ✔</p>
+<hr/>
 <p>Commit das atividades de repeticao ✔</p>
+<hr/>
 <p>Commit da prova ✔</p>
 
 # Sobre o FreeTime
